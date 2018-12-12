@@ -30,6 +30,26 @@ public class CurrencyConverter implements CurrencyConverterIfce, ComponentInterf
 			rate = 7.85;
 			break;
 			
+		case "MYRU":
+			rate = 1/0.24;
+			break;
+			
+		case "MYRC":
+			rate = 1/0.32;
+			break;
+			
+		case "MYRJ":
+			rate = 1/27.19;
+			break;
+			
+		case "MYRS":
+			rate = 1/0.33;
+			break;
+			
+		case "MYRT":
+			rate = 1/7.85;
+			break;
+			
 		default:
 			rate = 1.00;
 			break;
@@ -37,4 +57,6 @@ public class CurrencyConverter implements CurrencyConverterIfce, ComponentInterf
 		
 		return amount * rate;
 	}
+	
+	
 }
