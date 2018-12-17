@@ -38,92 +38,142 @@ public class CurrencyConverterApp {
 		case 1:
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "USD";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("RM" + amount + " get you " + currency + newCurrency);
 			choose();
+			} else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 		case 2:
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "CND";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("RM" + amount + " get you " + currency + newCurrency);
 			choose();
+			} else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 			
 		case 3:
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "JPN";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("RM" + amount + " get you " + currency + newCurrency);
 			choose();
+			}else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 		case 4:
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "SGD";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("RM" + amount + " get you " + currency + newCurrency);
 			choose();
+			}else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 		case 5: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "THB";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("RM" + amount + " get you " + currency + newCurrency);
 			choose();
+			}else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 		case 6: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "MYRU";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("USA" + amount + " get you RM"+ newCurrency);
 			choose();
+			}else {
+				System.out.println("Invalid input. Try again.");
+				getAmount();	
+			}
 			break;
 			
 		case 7: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "MYRC";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("CND" + amount + " get you RM" + newCurrency);
 			choose();
+			}else {
+			System.out.println("Invalid input. Try again.");
+			getAmount();	
+			}
 			break;
 			
 		case 8: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "MYRJ";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("JPN" + amount + " get you RM" + newCurrency);
 			choose();
+			}else {
+			System.out.println("Invalid input. Try again.");
+			getAmount();	
+			}
 			break;
 			
 		case 9: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "MYRS";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("SGD" + amount + " get you RM"+ newCurrency);
 			choose();
+			}else {
+			System.out.println("Invalid input. Try again.");
+			getAmount();	
+			}
 			break;
 			
 		case 10: 
 			System.out.println("Enter amount you wish to convert:");
 			amount = scanner.nextInt();
+			if (amount>0) {
 			currency = "MYRT";
 			newCurrency = currencyConverter.convertCurrency(amount, currency);
 			System.out.println("THB" + amount + " get you RM" + newCurrency);
 			choose();
+			}else {
+			System.out.println("Invalid input. Try again.");
+			getAmount();	
+			}
 			break;
 			
 			default: 
